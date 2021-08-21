@@ -14,6 +14,7 @@ a {
 .action-button {
     padding: 5px 12px;
     border: 1px solid #333;
+    /* color: #fff; */
     transition: all .4s ease 0s;
     border-radius: 5px;
     background: transparent;
@@ -26,3 +27,26 @@ a {
 /* -----------------------
     Single product styles 
 ------------------------ */
+.single-product {
+    margin: 60px auto 20px;
+}
+.button-section {
+    margin: 40px auto 50px;
+}
+.calculation-area table {
+    width: 55%;
+    font-weight: bold;
+}
+.calculation-area table tr > td:last-child {
+    min-width: 85px;
+}
+#promo-code-input:focus {
+    outline: none;
+    border-color: #dc3545 !important;
+}
+.calculation-area table tr:nth-child(5n) td {
+    border-top: 2px solid;
+}
+.calculation-area table tr:last-child td {
+    border: none;
+}
