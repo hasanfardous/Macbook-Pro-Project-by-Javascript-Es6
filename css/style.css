@@ -1,0 +1,28 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Resetting */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common styles */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.action-button {
+    padding: 5px 12px;
+    border: 1px solid #333;
+    transition: all .4s ease 0s;
+    border-radius: 5px;
+    background: transparent;
+}
+.action-button:hover {
+    color: #fff;
+    background: #1f1e1e;
+}
+
+/* -----------------------
+    Single product styles 
+------------------------ */
